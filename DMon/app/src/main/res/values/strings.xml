@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">D Mon</string>
+    <string name="version">Version 1.1</string>
+    <string name="doge_value">0</string>
+    <string name="title_activity_info">Info</string>
+
+    <string name="ui_help_1">Tap the screen anywhere to check for updates.  The server typically provides new data at 5 minute intervals.</string>
+    <string name="ui_help_2">The current value will automatically update when the app is started, and then every 10 minutes while the app is running.</string>
+    <string name="ui_help_3">Tap the current-value text (the yellow text) to change the displayed units (the default is usd/Ð).</string>
+
+    <string name="donate_text">This app is provided to the community, free of charge and free of ads.  If you find it useful, please consider donating a few doge to support future development.</string>
+    <string name="donate_url">dogecoin:DJraVDMnvmKVShrUfitMhqNv7C4A9DRdHH?label=dmon</string>
+    <string name="donate_addr_only">DJraVDMnvmKVShrUfitMhqNv7C4A9DRdHH</string>
+
+</resources>

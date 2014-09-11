@@ -1,0 +1,103 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="bold">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Info"
+            style="@style/infoHeader"
+            android:id="@+id/infoTitle"
+            android:gravity="left"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/version"
+            style="@style/infoHeader"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:id="@+id/infoVersion"
+            android:gravity="right|center_vertical"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ui_help_1"
+        android:id="@+id/ui_help_1"
+        style="@style/infoBody" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ui_help_2"
+        android:id="@+id/ui_help_2"
+        style="@style/infoBody" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/ui_help_3"
+        android:id="@+id/ui_help_3"
+        style="@style/infoBody" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight=".3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/donate_text"
+        android:id="@+id/donate_text"
+        style="@style/infoBody" />
+
+    <View style="@style/Divider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/linkStyle"
+        android:text="@string/donate_url"
+        android:id="@+id/donate_url"
+        android:autoLink="all"
+        android:clickable="true"
+        android:linksClickable="true"
+         />
+
+    <View style="@style/Divider" />
+
+</LinearLayout>

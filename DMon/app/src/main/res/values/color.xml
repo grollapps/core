@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_border_color">#333377</color>
+    <color name="doge_text">#EA9933</color>
+    <color name="title_text">#443322</color>
+    <color name="change_up">#00EE00</color>
+    <color name="change_down">#EE0000</color>
+</resources>
